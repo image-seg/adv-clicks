@@ -1,0 +1,18 @@
+# Корневая папка весов моделей; пустая строка означает текущую папку.
+INTERACTIVE_MODELS_PATH: ""
+# Папка результатов экспериментов.
+EXPS_PATH: "./experiments"
+
+# Датасеты для оценки: GrabCut, Berkeley, DAVIS и COCO-MVal.
+GRABCUT_PATH: "../datasets/GrabCut"
+BERKELEY_PATH: "../datasets/Berkeley"
+DAVIS_PATH: "../datasets/DAVIS"
+COCO_MVAL_PATH: "../datasets/COCO_MVal"
+
+# Предобученные веса HRNet можно скачать из репозитория:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  HRNETV2_W18: "./pretrained_models/hrnetv2_w18_imagenet_pretrained.pth"
+  HRNETV2_W32: "./pretrained_models/hrnetv2_w32_imagenet_pretrained.pth"
+  HRNETV2_W40: "./pretrained_models/hrnetv2_w40_imagenet_pretrained.pth"
+  HRNETV2_W48: "./pretrained_models/hrnetv2_w48_imagenet_pretrained.pth"
